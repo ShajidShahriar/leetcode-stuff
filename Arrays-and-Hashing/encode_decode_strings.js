@@ -24,7 +24,7 @@ class Solution {
                 j++
             }
             const length = Number(str.slice(i,j))
-            const string = str.slice( j + 1 ,j + 1 + length) 
+            const string = str.slice( j + 1 ,j + 1 + length) //this feels autestic
             result.push(string)
 
             i = j + 1 + length 
